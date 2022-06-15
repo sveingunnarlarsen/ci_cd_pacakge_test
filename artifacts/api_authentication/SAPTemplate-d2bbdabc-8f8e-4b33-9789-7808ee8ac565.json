@@ -1,0 +1,25 @@
+{
+	"id": "d2bbdabc-8f8e-4b33-9789-7808ee8ac565",
+	"createdAt": "2022-05-12T14:12:54.144Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"headers": [],
+	"details": {
+		"subject": {},
+		"headers": [],
+		"username": "gunnar",
+		"password": "Prince_X_02"
+	},
+	"azureRelayDetails": {
+		"ns": "",
+		"path": "",
+		"keyRule": "",
+		"key": ""
+	},
+	"name": "SAPTemplate",
+	"description": null,
+	"type": "basic",
+	"useCloudConnector": false,
+	"cloudConnectorType": null,
+	"ver": null,
+	"package": "dd9c283d-a184-43e8-8127-01f06ac70963"
+}

@@ -1,0 +1,73 @@
+{
+	"id": "d2ee9f3c-db07-4a52-a89a-b7ac4b4bce88",
+	"createdAt": "2022-05-16T13:56:02.252Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "08467f80-8dd2-40a9-8ec9-068613029bcc",
+					"fieldName": "oTypescript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": [
+						"==OBJECT STRING==",
+						"\r",
+						"console.log('test');"
+					],
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.6.15.1028",
+	"application": "testevents",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": false,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": "",
+	"header": [
+		"==OBJECT STRING==",
+		"<script type=\"text/javascript\" src=\"/socket.io/socket.io.js\"></script>\r",
+		""
+	],
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "dd9c283d-a184-43e8-8127-01f06ac70963"
+}

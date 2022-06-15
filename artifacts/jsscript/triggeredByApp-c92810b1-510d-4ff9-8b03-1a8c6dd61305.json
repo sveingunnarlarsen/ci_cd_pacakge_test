@@ -1,0 +1,47 @@
+{
+	"id": "c92810b1-510d-4ff9-8b03-1a8c6dd61305",
+	"createdAt": "2022-05-30T14:16:31.890Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "c8ce2b49-3a35-49f7-8963-e0b9f06fa4a1",
+			"name": "typeorm",
+			"contextname": "typeorm",
+			"path": "typeorm"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "364dfc98-954f-476f-ad14-250e1b224a99",
+			"name": "test",
+			"contextname": "test"
+		}
+	],
+	"apis": [],
+	"name": "triggeredByApp",
+	"ver": "22.6.2.2247",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"const typeorm = modules.typeorm;\r",
+		"const manager = typeorm.getManager();\r",
+		"const users = await manager.find('users');\r",
+		"//@ts-ignore\r",
+		"await p9.events.publish('app_listener', users);"
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": true,
+	"transpiledContent": [
+		"==OBJECT STRING==",
+		"var typeorm = modules.typeorm;\r",
+		"var manager = typeorm.getManager();\r",
+		"var users = await manager.find('users');\r",
+		"//@ts-ignore\r",
+		"await p9.events.publish('app_listener', users);\r",
+		""
+	],
+	"lastRunSuccessful": true,
+	"jsscriptGroup": "3bf02c7c-fae2-4ab3-a97c-9e7ec5190de1",
+	"package": "dd9c283d-a184-43e8-8127-01f06ac70963"
+}

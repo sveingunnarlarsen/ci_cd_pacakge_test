@@ -1,0 +1,49 @@
+{
+	"id": "6c7d2b64-3a9b-4a14-af49-8dec86a7a74d",
+	"createdAt": "2022-05-16T14:12:12.576Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "c8ce2b49-3a35-49f7-8963-e0b9f06fa4a1",
+			"name": "typeorm",
+			"contextname": "typeorm",
+			"path": "typeorm"
+		},
+		{
+			"id": "internal_moment",
+			"name": "moment",
+			"contextname": "moment",
+			"path": "moment"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "364dfc98-954f-476f-ad14-250e1b224a99",
+			"name": "test",
+			"contextname": "test"
+		}
+	],
+	"apis": [],
+	"name": "test",
+	"ver": "22.6.15.956",
+	"description": null,
+	"content": [
+		"==OBJECT STRING==",
+		"//const { In } = operators;\r",
+		"//const manager = modules.typeorm.getManager();\r",
+		"//const user = await manager.find('users', {username: \"Svein.gunnar.larsen@neptune-software.com\"});\r",
+		"//console.log(user);\r",
+		"\r",
+		"\r",
+		"const test = await p9.pdf.generatePdf({pdfName: 'testing', objectKey: 'example', body: {test: 1}});\r",
+		"console.log(test);\r",
+		""
+	],
+	"useAsGlobalScript": false,
+	"isTypescript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"jsscriptGroup": "42b39075-abe6-40f3-8904-0ad469e507db",
+	"package": "dd9c283d-a184-43e8-8127-01f06ac70963"
+}

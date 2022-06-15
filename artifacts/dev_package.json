@@ -1,0 +1,119 @@
+{
+	"id": "dd9c283d-a184-43e8-8127-01f06ac70963",
+	"createdAt": "2022-05-12T14:11:23.822Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"testServers": [],
+		"remote": "https://github.com/sveingunnarlarsen/ci_cd_pacakge_test.git",
+		"packageJSON": [
+			"==OBJECT STRING==",
+			"{",
+			"  \"name\": \"Testing\",",
+			"  \"version\": \"1.0.0\",",
+			"  \"description\": \"Misc artifacts for testing\",",
+			"  \"author\": \"Neptune Software\",",
+			"  \"license\": \"LicenseRef-LICENSE\",",
+			"  \"private\": true,",
+			"  \"scripts\": {",
+			"    \"deploy\": \"ts-node src/deploy.ts\",",
+			"    \"test\": \"jest --passWithNoTests\"",
+			"  },",
+			"  \"engines\": {",
+			"    \"node\": \"14.16.0\"",
+			"  },",
+			"  \"devDependencies\": {",
+			"    \"@types/jest\": \"^26.0.23\",",
+			"    \"typescript\": \"^4.2.3\",",
+			"    \"ts-node\": \"^10.0.0\",",
+			"    \"axios\": \"^0.21.1\",",
+			"    \"jest\": \"^27.0.4\",",
+			"    \"ts-jest\": \"^27.0.3\"",
+			"  }",
+			"}",
+			""
+		]
+	},
+	"name": "Testing",
+	"description": "Misc artifacts for testing",
+	"ver": "22.6.15.1151",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "df1650a6-dc56-4ae8-8690-ac3a520cacf1",
+			"application": "testodatav2",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "d2ee9f3c-db07-4a52-a89a-b7ac4b4bce88",
+			"application": "testevents",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "364dfc98-954f-476f-ad14-250e1b224a99",
+			"name": "test",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "c92810b1-510d-4ff9-8b03-1a8c6dd61305",
+			"name": "triggeredByApp",
+			"description": null
+		},
+		{
+			"id": "6c7d2b64-3a9b-4a14-af49-8dec86a7a74d",
+			"name": "test",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "42b39075-abe6-40f3-8904-0ad469e507db",
+			"name": "Testing",
+			"description": null
+		},
+		{
+			"id": "3bf02c7c-fae2-4ab3-a97c-9e7ec5190de1",
+			"name": "TriggeredFromApp",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [
+		{
+			"id": "d2bbdabc-8f8e-4b33-9789-7808ee8ac565",
+			"name": "SAPTemplate",
+			"description": null
+		}
+	],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [
+		{
+			"id": "e2f35671-dcc8-42d7-9f9b-012ef39d450c",
+			"name": "Test",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": []
+}

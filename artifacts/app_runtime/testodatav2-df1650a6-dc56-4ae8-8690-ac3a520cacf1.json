@@ -1,0 +1,123 @@
+{
+	"id": "df1650a6-dc56-4ae8-8690-ac3a520cacf1",
+	"createdAt": "2022-05-12T14:15:52.854Z",
+	"createdBy": "svein.gunnar.larsen@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "d10e695c-be6f-4521-fa95-0ba9e0a3c11f",
+			"fieldName": "oPage",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Page",
+			"script": "",
+			"customComponent": false,
+			"bindingValue": "oODataSource>VH_Language",
+			"bindingType": "u",
+			"bindingSource": "oData",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "setInitLoad",
+					"grouping": "Model",
+					"value": "online",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "5c6e1f2a-661c-4519-927a-84b4f5bcdf3b",
+					"fieldName": "oSimpleForm",
+					"fieldParent": "d10e695c-be6f-4521-fa95-0ba9e0a3c11f",
+					"fieldType": "sap.ui.layout.form.SimpleForm",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "d807e446-9b7d-4d7b-9677-8f0bb71cc717",
+							"fieldName": "oLabel",
+							"fieldParent": "5c6e1f2a-661c-4519-927a-84b4f5bcdf3b",
+							"fieldType": "sap.m.Label",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "3576b68d-d989-4646-9e60-1e5b459f0e55",
+					"fieldName": "oODataSource",
+					"fieldParent": 99999,
+					"fieldType": "sap.ui.model.odata.v2.ODataModel",
+					"script": "",
+					"customComponent": false,
+					"odataSource": "862a87c3-508e-4d04-aa8d-38e87a26ebcb",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "useBatch",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"ver": "22.5.13.106",
+	"application": "testodatav2",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "1.84CDN",
+	"ui5_language": null,
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": true,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "dd9c283d-a184-43e8-8127-01f06ac70963"
+}
